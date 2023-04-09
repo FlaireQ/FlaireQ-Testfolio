@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+
+.część,
+.pasek {
+    text-transform: uppercase;
+    font-weight: 400;
+    display: flex;
+    padding: 10px;
+}
+
+.część {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pasek {
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px black;
+}
+
+#Projekty_link {
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#Projekty_link:hover,
+:focus {
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#Awatar {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+a:focus {
+    color: lightslategray     
+}
+
+p {
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-right: 80px;
+}
+
+span {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.Nagłówek {
+    text-transform: uppercase;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+.Trochę_tekstu {
+    margin-left: 80px;
+}
+
+#Góra {
+    background-color: black;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background: black;
+}
